@@ -5,10 +5,7 @@ import java.net.Socket;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author Suryateja
- */
+
 public class MessageTransmitter extends Thread{
     String message,hostname;
     int port;

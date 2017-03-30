@@ -1,0 +1,15 @@
+package chatapplication;
+
+import chatapplication.gui.receive;
+
+
+public class Chatapplication {
+
+   
+    public static void main(String[] args) {
+       
+        receive screen = new receive();
+        screen.show();
+    }
+    
+}
